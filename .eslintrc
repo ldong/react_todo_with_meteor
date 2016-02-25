@@ -1,0 +1,22 @@
+{
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "no-underscore-dangle": 0,
+        "quotes": [
+            2,
+            "single"
+        ],
+        "no-var": 1,
+        "eol-last": 1,
+        "strict": 0
+    }
+}
