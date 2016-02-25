@@ -8,7 +8,7 @@ Task = React.createClass({
 
   toggleChecked() {
     Tasks.update(this.props.task._id, {
-      $set: {checked: !this.props.task.chekced}
+      $set: {checked: !this.props.task.checked}
     });
   },
 
