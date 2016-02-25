@@ -4,6 +4,10 @@ if (Meteor.isClient) {
   // counter starts at 0
   Session.setDefault('counter', 0);
 
+  Accounts.ui.config({
+    passwordSignupFields: 'USERNAME_ONLY'
+  });
+
   Meteor.startup(function() {
     ReactDOM.render(<App />, document.getElementById('container'));
   });
